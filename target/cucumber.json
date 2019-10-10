@@ -1,0 +1,89 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: raghav seth"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3697243636,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Login Page Navigated",
+            "match": {
+              "location": "SmokeTest.navigateLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7960239256,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SmokeTest.beforeScenario()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Validate OrangeHRM title",
+        "description": "",
+        "id": "validate-orangehrm-smoke-test-scenarios;validate-orangehrm-title",
+        "after": [
+          {
+            "result": {
+              "duration": 823661495,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SmokeTest.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9547012,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Correct title should be displayed",
+            "match": {
+              "location": "SmokeTest.validateCorrectTitle()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@RS"
+          }
+        ]
+      }
+    ],
+    "name": "Validate OrangeHRM Smoke Test Scenarios",
+    "description": "",
+    "id": "validate-orangehrm-smoke-test-scenarios",
+    "keyword": "Feature",
+    "uri": "SmokeTests.feature"
+  }
+]
