@@ -1,9 +1,0 @@
-#Author: raghav seth
-Feature: Validate OrangeHRM Smoke Test Scenarios
-
-  Background:                  [90m# SmokeTests.feature:4[0m
-    [32mGiven [0m[32mLogin Page Navigated[0m [90m# SmokeTest.navigateLoginPage()[0m
-
-  @RS
-  Scenario: Validate OrangeHRM title       [90m# SmokeTests.feature:8[0m
-    [32mThen [0m[32mCorrect title should be displayed[0m [90m# SmokeTest.validateCorrectTitle()[0m
