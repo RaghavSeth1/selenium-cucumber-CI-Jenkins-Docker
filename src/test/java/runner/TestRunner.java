@@ -10,8 +10,9 @@ import org.junit.AfterClass;
 import org.junit.runner.RunWith;
 
 import com.cucumber.listener.Reporter;
-import com.github.mkolisnyk.cucumber.runner.ExtendedCucumber;
 import com.github.mkolisnyk.cucumber.runner.ExtendedCucumberOptions;
+import com.github.mkolisnyk.cucumber.runner.ExtendedCucumber;
+
 
 @RunWith(ExtendedCucumber.class)
 @ExtendedCucumberOptions
@@ -28,6 +29,7 @@ import com.github.mkolisnyk.cucumber.runner.ExtendedCucumberOptions;
 		includeCoverageTags = {"@passed" },//Tags which need to included into coverage Report
 		outputFolder = "target")
 
+//@RunWith(Cucumber.class)
 @CucumberOptions(
 		plugin = {
 				"com.cucumber.listener.ExtentCucumberFormatter:target/cucumber-reports/report.html", 

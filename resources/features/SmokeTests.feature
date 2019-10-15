@@ -1,5 +1,5 @@
 #Author: raghav seth
-
+  @RS
 Feature: Validate OrangeHRM Smoke Test Scenarios
 Background: 
 Given Login Page Navigated
